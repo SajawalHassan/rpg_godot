@@ -7,6 +7,10 @@ const UP_DIRECTION: Vector2 = Vector2.UP
 export var speed: int = 200
 
 var velocity: Vector2 = Vector2.ZERO
+var screen_size: Vector2
+
+func _ready():
+	screen_size = get_viewport_rect().size
 
 func _physics_process(delta: float) -> void:
 	var horizontal_input = (Input.get_action_strength("right") - Input.get_action_strength("left"))
@@ -14,6 +18,9 @@ func _physics_process(delta: float) -> void:
 	
 	velocity.x = horizontal_input
 	velocity.y = vertical_input
+	
+	position.x = clamp(position.x, 0, screen_size.x)
+	position.y = clamp(position.y, 0, screen_size.y)
 	
 	move_and_slide(velocity.normalized() * speed)
 	

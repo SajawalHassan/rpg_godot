@@ -1,0 +1,55 @@
+{
+	"events": [
+		{
+			"character": "character-1671340149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi there, my name is Marcus and you will be controlling me!"
+		},
+		{
+			"character": "character-1671340149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I've always wanted to be a hero, and people do think I am capable of it."
+		},
+		{
+			"character": "character-1671340149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But there has been no chance for me to show my bravery"
+		},
+		{
+			"character": "character-1671340751.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Marcus! Marcus!"
+		},
+		{
+			"character": "character-1671340149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What?!"
+		},
+		{
+			"character": "character-1671340751.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Our kindom is being attacked! The king has ordered you to lead the forces!"
+		},
+		{
+			"character": "character-1671340751.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Go to the scientist, Kenny. She will will give you the armour and tools to get started!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671340193.json",
+		"name": "introduction_to_player"
+	}
+}
